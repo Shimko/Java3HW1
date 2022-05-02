@@ -1,7 +1,6 @@
 package Java3HW1;
 
 public abstract class Fruit {
-
     public  float weight;
     public String name;
 

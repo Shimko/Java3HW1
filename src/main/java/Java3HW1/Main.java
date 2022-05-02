@@ -5,7 +5,6 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
-
     // Метод от Задачи 1.
     private static <V> void swapObj(V[] array, int a1){
         V b = array[a1];
@@ -18,7 +17,6 @@ public class Main {
     }
 
     public static void main(String[] args) {
-
         Object[] arr = {"O", 87L, 34.5f, "Z"};
         System.out.println("Задание №1\n" + "Первоночальный массив:" + Arrays.toString(arr));
         swapObj(arr, 2);
@@ -61,8 +59,6 @@ public class Main {
         orangeBox.moveAllToAnotherBox(orangeBox2);
         System.out.println("В первой коробке с яблоками осталось: " + orangeBox.getFruits());
         System.out.println("Во второй коробке с яблоками стало: " + orangeBox2.getFruits());
-
-
     }
 
 }
